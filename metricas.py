@@ -9,3 +9,5 @@ pedidos = sum(int(linha["pedidos"]) for linha in linhas)
 
 print("Receita total:", receita)
 print("Pedidos:", pedidos)
+
+print("Ticket medio: ", receita / pedidos) 
